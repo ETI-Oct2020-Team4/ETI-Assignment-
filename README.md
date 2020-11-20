@@ -2,7 +2,7 @@
 Title: RATVENTURE
 Team: Group 5
 Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing
-Roles: Jia Qing
+Roles: Jia Qing, Raymond
 ScrumMaster - Raymond? 
 Developer -
 QA -
