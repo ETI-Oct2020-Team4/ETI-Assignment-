@@ -1,13 +1,13 @@
 # ETI-Assignment-
-Title: RATVENTURE \n
-Team: Group 5 \n
-Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing \n
-Roles: \n
-ScrumMaster - Raymond? \n 
-Developer - \n
-QA - \n
-Ops - \n
-Slogan: We do with our utmost ability to get that A \n
+- Title: RATVENTURE 
+- Team: Group 5 
+- Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing 
+- Roles: 
+-ScrumMaster - Raymond? 
+- Developer -
+- QA - 
+- Ops - 
+- Slogan: We do with our utmost ability to get that A 
 
-Software Methodology Considerations: \n
+-Software Methodology Considerations: 
 ### Created - 18/11/2020 ReadMe for ETI assignment, Last Modified by - dd/mm/yy name
