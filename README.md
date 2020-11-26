@@ -3,10 +3,10 @@
 - Team: Group 5 
 - Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing 
 - Roles: 
-- ScrumMaster - Raymond? 
-- Developer -
-- QA - 
-- Ops - 
+- ScrumMaster - Raymond
+- Developer (2 Ppl)- Sara Dinesh
+- QA (2 ppl)- Dinesh Jiaqing 
+- Ops (1 ppl)- Hari 
 - Slogan: We do with our utmost ability to get that A 
 
 - Software Methodology Considerations: 
