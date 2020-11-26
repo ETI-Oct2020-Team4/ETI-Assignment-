@@ -1,6 +1,6 @@
 # ETI-Assignment-
 - Title: RATVENTURE 
-- Team: Group 5 
+- Team: Team 4 
 - Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing 
 - Roles: 
 - ScrumMaster - Raymond
