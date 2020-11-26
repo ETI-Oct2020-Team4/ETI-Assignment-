@@ -4,7 +4,7 @@
 - Contributors: Raymond, Saravanan, Hari, Dinesh, Jia Qing 
 - Roles: 
 - ScrumMaster - Raymond
-- Developer (2 Ppl)- Sara Dinesh 
+- Developer (1 Ppl)- Sara 
 - QA (2 ppl)- Dinesh Jiaqing 
 - Ops (1 ppl)- Hari 
 
