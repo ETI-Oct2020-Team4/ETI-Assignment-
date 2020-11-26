@@ -10,8 +10,9 @@
 
 - Slogan: We do with our utmost ability to get that A 
 
-- Software Methodology Considerations: 
-- WaterFall :
+# Software Methodology Considerations: 
+
+# WaterFall :
 - Pros: 
 - The linear nature of the waterfall development method makes it easy to understand and manage. 
 - Projects with clear objectives and stable requirements can best use the waterfall method. 
