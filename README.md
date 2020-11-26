@@ -61,7 +61,7 @@
 - Organizations that don’t meet these requirements are unlikely to benefit from RAD.
 
 # Chosen Methodology: 
-- Agile + DevOps
+- Agile 
 
 - Why?
 - Faster Development 
