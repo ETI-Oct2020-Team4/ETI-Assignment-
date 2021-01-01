@@ -1,5 +1,5 @@
 import pytest
-from .github/workflows.zzzzzzzzzz import *
+from .github/workflows.Town_Menu.py import *
 
 @pytest.mark.parametrize("test_input,expected", [(3,"option 3")(4,"option 3")
                                                  (5,"option 3")(6,"option 3")
