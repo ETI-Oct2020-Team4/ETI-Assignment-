@@ -8,11 +8,11 @@ from .github/workflows.Town_Menu.py import *
                                                  
                                                  
 
-def test_move():
+def test_view_character():
     value = Town_Menu_Options(1)
     assert value == "option 1"
 
-def test_move():
+def test_view_map():
     value = Town_Menu_Options(2)
     assert value == "option 2"
 
