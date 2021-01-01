@@ -9,7 +9,7 @@ def Show_Character_Stats():
     print(toString)
     return toString 
 
-def Town_Menu():
+def Town_Menu(option):
     #print out menu
     print("You are in a town.");
     print("1) View Character");
