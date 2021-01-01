@@ -5,10 +5,9 @@ from .github/workflows.Town_Menu.py import *
                                                  (3,"option 3")(4,"option 4")
                                                  (5,"option 5")(6,"option 6")
                                                  (7,"Please input a value from 1-5")
-                                                 (8,"Error 0 < input <= 6")
-                                                 (9,"Error 0 < input <= 6")
-                                                 (0,"Error 0 < input <= 6")
-                                                 (A,"Error 0 < input <= 6")])
+                                                 (8,"Error")(9,"Error")
+                                                 (0,"Error")(A,"Error")])
+                                                 
 
 def test_move():
     value = Town_Menu_Options(1)
@@ -34,16 +33,9 @@ def test_exit_game():
     value = Town_Menu_Options(6)
     assert value == null
 
-def test_wrong_input():
-    value = Town_Menu_Options(7)
-    and value = Town_Menu_Options(8)
-    and value = Town_Menu_Options(9)
-    and value = Town_Menu_Options(0)
-    and value = Town_Menu_Options(A)
-    assert value == "Error 0 < input <= 6"
-
-
-
+def test_wrong_input(test_input,expected):
+      value = Town_Menu_Option(test_input)
+      assert value = expected
 
 
 
