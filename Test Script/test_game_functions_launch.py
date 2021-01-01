@@ -1,13 +1,22 @@
 import pytest
 from .github/workflows.Town_Menu.py import *
 
-@pytest.mark.parametrize("test_input,expected", [(3,"option 3")(4,"option 3")
-                                                 (5,"option 3")(6,"option 3")
+@pytest.mark.parametrize("test_input,expected", [(1,"option 1")(2,"option 2")
+                                                 (3,"option 3")(4,"option 4")
+                                                 (5,"option 5")(6,"option 6")
                                                  (7,"Please input a value from 1-5")
                                                  (8,"Error 0 < input <= 6")
                                                  (9,"Error 0 < input <= 6")
                                                  (0,"Error 0 < input <= 6")
                                                  (A,"Error 0 < input <= 6")])
+
+def test_move():
+    value = Town_Menu_Options(1)
+    assert value == "option 1"
+
+def test_move():
+    value = Town_Menu_Options(2)
+    assert value == "option 2"
 
 def test_move():
     value = Town_Menu_Options(3)
@@ -26,8 +35,14 @@ def test_exit_game():
     assert value == null
 
 def test_wrong_input():
-    value != Town_Menu_Options(7 or 8 or 9 or 0 or A)
+    value = Town_Menu_Options(7)
+    and value = Town_Menu_Options(8)
+    and value = Town_Menu_Options(9)
+    and value = Town_Menu_Options(0)
+    and value = Town_Menu_Options(A)
     assert value == "Error 0 < input <= 6"
+
+
 
 
 
