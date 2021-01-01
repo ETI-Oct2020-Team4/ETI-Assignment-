@@ -34,7 +34,7 @@ def test_exit_game():
 
 def test_wrong_input(test_input,expected):
       value = Town_Menu_Option(test_input)
-      assert value = expected
+      assert value == expected
 
 
 
