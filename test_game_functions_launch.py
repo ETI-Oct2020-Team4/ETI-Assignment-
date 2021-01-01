@@ -1,7 +1,7 @@
 import pytest
 from Town_Menu import *
 
-@pytest.mark.parametrize("test_input,expected", [(1,"1"),(2,2),(3,"option 3"),
+@pytest.mark.parametrize("test_input,expected", [(1,"option 1"),(2,"option 2"),(3,"option 3"),
                                                  (4,"option 4"),(5,"option 5"),
                                                  (6,"option 6"),(7,"Error"),(8,"Error"),
                                                  (9,"Error"),(0,"Error"),("A","Error")])
@@ -13,11 +13,11 @@ def test_wrong_input(test_input,expected):
 
 def test_view_character():
     value = Town_Menu(1)
-    assert value == "1"
+    assert value == "option 1"
 
 def test_view_map():
     value = Town_Menu(2)
-    assert value == 2
+    assert value == "option 2"
 
 def test_move():
     value = Town_Menu(3)
@@ -34,16 +34,3 @@ def test_save_game():
 def test_exit_game():
     value = Town_Menu(6)
     assert value == "option 6"
-
-
-
-
-
-'''
-def Town_Menu(input){
-    if(input > 0 && < 10)
-    return true
-
-    }
-
-'''
