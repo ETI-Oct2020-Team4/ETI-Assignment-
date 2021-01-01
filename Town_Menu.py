@@ -19,7 +19,6 @@ def Town_Menu():
     print("5) Save Game");
     print("6) Exit Game");
     #ask for input
-    option = input("Please enter an Option: "); 
 
     Town_Menu_Options(option);
         
