@@ -1,10 +1,10 @@
 import pytest
-from .github/workflows.Town_Menu.py import *
+from ETI-Assignment-.Town_Menu import *
 
-@pytest.mark.parametrize("test_input,expected", [(1,"option 1")(2,"option 2")(3,"option 3")
-                                                 (4,"option 4")(5,"option 5")
-                                                 (6,"option 6")(7,"Error")(8,"Error")
-                                                 (9,"Error")(0,"Error")(A,"Error")])
+@pytest.mark.parametrize("test_input,expected", [(1,"option 1"),(2,"option 2"),(3,"option 3"),
+                                                 (4,"option 4"),(5,"option 5"),
+                                                 (6,"option 6"),(7,"Error"),(8,"Error"),
+                                                 (9,"Error"),(0,"Error"),(A,"Error")])
                                                  
                                                  
 
