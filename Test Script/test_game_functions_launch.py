@@ -1,5 +1,5 @@
 import pytest
-from .github/workflows.Town_Menu.py import *
+from Town_Menu import *
 
 @pytest.mark.parametrize("test_input,expected", [(1,"option 1"),(2,"option 2"),(3,"option 3"),
                                                  (4,"option 4"),(5,"option 5"),
@@ -34,7 +34,7 @@ def test_exit_game():
 
 def test_wrong_input(test_input,expected):
       value = Town_Menu_Option(test_input)
-      assert value = expected
+      assert value == expected
 
 
 
