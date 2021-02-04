@@ -1,5 +1,5 @@
 import pytest
-from ETI-Assignment-.Town_Menu import *
+from Town_Menu import *
 
 def test_character_stats_print():
     value = Show_Character_Stats()

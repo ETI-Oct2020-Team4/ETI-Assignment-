@@ -9,7 +9,7 @@ def Show_Character_Stats():
     print(toString)
     return toString 
 
-def Town_Menu():
+def Town_Menu(option):
     #print out menu
     print("You are in a town.");
     print("1) View Character");
@@ -19,7 +19,6 @@ def Town_Menu():
     print("5) Save Game");
     print("6) Exit Game");
     #ask for input
-    option = input("Please enter an Option: "); 
 
     Town_Menu_Options(option);
         
@@ -59,6 +58,6 @@ def Town_Menu_Options(o_input):
     return message;
 
 
-while(True):
-    Town_Menu() 
+#while(True):
+#    Town_Menu() 
     
