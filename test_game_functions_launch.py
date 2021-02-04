@@ -1,16 +1,17 @@
 import pytest
 from Town_Menu import *
 
+
 @pytest.mark.parametrize("test_input,expected", [(1,"option 1"),(2,"option 2"),(3,"option 3"),
                                                  (4,"option 4"),(5,"option 5"),
                                                  (6,"option 6"),(7,"Error"),(8,"Error"),
+
                                                  (9,"Error"),(0,"Error"),("A","Error")])
+
 def test_wrong_input(test_input,expected):
       value = Town_Menu(test_input)
       assert value == expected
-
                                                  
-
 def test_view_character():
     value = Town_Menu(1)
     assert value == "option 1"
