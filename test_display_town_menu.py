@@ -6,42 +6,42 @@ import tudtestbase
 
 globalVar.test_mode = True #always be true
 
-def test_display_town_menu_1():
+def test_display_town_menu_character():
     globalVar.menu_choice = "1" #set input
 
     value = townMenu.menu() #call the menu 
 
     assert value == "1"
 
-def test_display_town_menu_2():
+def test_display_town_menu_map():
     globalVar.menu_choice = "2" #set input
 
     value = townMenu.menu() #call the menu 
 
     assert value == "2"
 
-def test_display_town_menu_3():
+def test_display_town_menu_move():
     globalVar.menu_choice = "3" #set input
 
     value = townMenu.menu() #call the menu 
 
     assert value == "3"
 
-def test_display_town_menu_4():
+def test_display_town_menu_rest():
     globalVar.menu_choice = "4" #set input
 
     value = townMenu.menu() #call the menu 
 
     assert value == "4"
 
-def test_display_town_menu_5():
+def test_display_town_menu_save():
     globalVar.menu_choice = "5" #set input
 
     value = townMenu.menu() #call the menu 
 
     assert value == "5"
 
-def test_display_town_menu_6():
+def test_display_town_menu_exit():
     checklist = []
     tudtestbase.set_keyboard_input([""]) #this is requiredd regardless of input 
 
