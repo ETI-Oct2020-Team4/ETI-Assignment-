@@ -43,6 +43,13 @@ def test_outdoor_menu_5():
 
     assert value == "3"
 
+def test_outdoor_menu_6():
+    globalVar.menu_choice = "4" #set input
+
+    value = townMenu.menu() #call the menu 
+
+    assert value == "4"
+
 
     
     
