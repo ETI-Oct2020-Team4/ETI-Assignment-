@@ -1,8 +1,8 @@
 import townMenu
 import globalVar
 import pytest
-import player
-import tudtestbase
+
+
 
 globalVar.test_mode = True #Always put it there as true 
 
