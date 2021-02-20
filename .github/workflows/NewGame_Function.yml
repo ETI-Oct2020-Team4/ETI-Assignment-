@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ Rest_Function ]
+    branches: [ New_Game_Function ]
   pull_request:
-    branches: [ Rest_Function ]   
+    branches: [ New_Game_Function ]   
   
 jobs:
   build:
