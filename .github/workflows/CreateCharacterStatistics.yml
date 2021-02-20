@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ Display_Combat_Menu ]
+    branches: [ Create_Character_Statistics ]
   pull_request:
-    branches: [ Display_Combat_Menu ]   
+    branches: [ Create_Character_Statistics ]   
   
 jobs:
   build:
