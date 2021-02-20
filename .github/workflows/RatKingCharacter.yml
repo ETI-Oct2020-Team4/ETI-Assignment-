@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ Create_Character_Statistics ]
+    branches: [ Rat_King_Character ]
   pull_request:
-    branches: [ Create_Character_Statistics ]   
+    branches: [ Rat_King_Character ]   
   
 jobs:
   build:
@@ -57,4 +57,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_PROJECT_URL: https://github.com/ETI-Oct2020-Team4/ETI-Assignment-
         GITHUB_PROJECT_COLUMN_NAME: To do
-
